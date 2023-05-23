@@ -19,14 +19,14 @@ public class Main {
             System.out.println(process);
 
             if (process.startsWith("e")){
-                String output = Cipherencoding.encode(msg, key);
+                String output = CipherEncoding.encode(msg, key);
                 System.out.println(output);
 
             } else if (process.startsWith("d")){
                 System.out.println("decoding");
             } else {
                 System.out.println("invalid process");
-                continue;
+
             }
             //TO DO add logic for decoding
 
@@ -35,6 +35,8 @@ public class Main {
 
             if (nextStep.startsWith("q")){
                 break;
+            } else {
+                continue;
             }
 
         } while (true);

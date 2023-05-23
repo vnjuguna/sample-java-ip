@@ -1,6 +1,6 @@
 package org.indigo;
 
-public class Cipherencoding {
+public class CipherEncoding {
     private static String alphabets = "ABCDEFGHIJKLMNOPQRSTUVWZYZ";
     public static String encode(String msg, int key){
         String output = "";
