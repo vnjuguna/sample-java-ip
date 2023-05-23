@@ -8,6 +8,7 @@ public class Main {
         do {
             System.out.println("Select Process - e-encode/d-decode!");
             String process = userInputObject.nextLine();
+
             System.out.println("Enter Message!");
             String msg = userInputObject.nextLine();
 
@@ -35,4 +36,5 @@ public class Main {
             }
 
         } while (true);
-    }}
+    }
+}
