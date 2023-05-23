@@ -17,9 +17,11 @@ public class Main {
 
             System.out.println("Processing...");
             System.out.println(process);
+
             if (process.startsWith("e")){
                 String output = Cipherencoding.encode(msg, key);
                 System.out.println(output);
+
             } else if (process.startsWith("d")){
                 System.out.println("decoding");
             } else {
