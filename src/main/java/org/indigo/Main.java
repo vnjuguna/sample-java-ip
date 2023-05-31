@@ -18,7 +18,7 @@ public class Main {
             System.out.println("Processing...");
             System.out.println(process);
 
-            if (process.startsWith("e")){
+            if (process.toLowerCase().startsWith("e")){
                 String output = CipherEncoding.encode(msg, key);
                 System.out.println(output);
 
@@ -26,19 +26,17 @@ public class Main {
                 System.out.println("decoding");
             } else {
                 System.out.println("invalid process");
-
+                continue;
             }
             //TO DO add logic for decoding
 
             System.out.println("Type q to quit or c to continue!");
-            String nextStep = userInputObject.nextLine();
+            String nextStep = userInputObject.next();
 
             if (nextStep.startsWith("q")){
                 break;
-            } else {
-                continue;
             }
 
-        } while (true);
+            } while (true);
     }
 }

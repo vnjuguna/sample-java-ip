@@ -1,7 +1,7 @@
 package org.indigo;
 
 public class CipherEncoding {
-    private static String alphabets = "ABCDEFGHIJKLMNOPQRSTUVWZYZ";
+    private static String alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     public static String encode(String msg, int key){
         String output = "";
         for (char c: msg.toCharArray()){
