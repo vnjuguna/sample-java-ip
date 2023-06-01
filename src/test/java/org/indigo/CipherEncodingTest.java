@@ -28,6 +28,7 @@ class CipherEncodingTest {
         assertEquals("h", CipherEncoding.encode("e", 3));
         assertEquals("y", CipherEncoding.encode("x", 1));
         assertEquals("z", CipherEncoding.encode("y", 1));
+        assertEquals("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", CipherEncoding.encode("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD",3));
     }
 }
 
