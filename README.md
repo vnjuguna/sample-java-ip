@@ -12,7 +12,7 @@ This projects Implements a Caesar cipher, both encoding, and decoding. The key i
 - Open the cloned Code on Vs Code
 - Run with ...
 ## BDD
-- Enter the process either encoding or decoding
+- User Input Enter the process either encoding or decoding
 - Enter the Key
 - Get the Encoded or Decoded Message
 - Allow the user to quit
