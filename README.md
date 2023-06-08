@@ -15,6 +15,7 @@ This projects Implements a Caesar cipher, both encoding, and decoding. The key i
 - Enter the process either encoding or decoding
 - Enter the Key
 - Get the Encoded or Decoded Message
+- Allow the user to quit
 ## Live Link
 https://vnjuguna.github.io/sample-java-ip/
 ## Known Bugs
