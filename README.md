@@ -18,8 +18,6 @@ This projects Implements a Caesar cipher, both encoding, and decoding. The key i
 - Allow the user to quit
 ## TDD
 - Test the encoding or decoding.
-## Live Link
-https://vnjuguna.github.io/sample-java-ip/
 ## Known Bugs
 No known bugs
 ## Licence information with a copyright and date

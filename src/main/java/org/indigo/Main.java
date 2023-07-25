@@ -25,7 +25,8 @@ public class Main {
             } else if (process.startsWith("d")){
                 String output = CipherDecoding.decode(msg, key);
                 System.out.println(output);
-            } else {
+            }
+            else {
                 System.out.println("invalid process");
 
             }
